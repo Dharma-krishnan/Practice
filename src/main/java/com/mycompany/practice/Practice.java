@@ -11,7 +11,7 @@ package com.mycompany.practice;
 public class Practice {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Finding the largest of three Integers !");
         int a=20;
         int b=30;
         int c=25;
