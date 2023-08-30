@@ -10,7 +10,7 @@ package com.mycompany.practice;
  */
 public class FIbo {
     public static void main(String[] args){
-        int n=7;
+        int n=7;// also take input from the user this number of series of elements to print fibonnacci
     int  a=0;
      int b=1;
      int count=2;
