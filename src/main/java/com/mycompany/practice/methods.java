@@ -11,13 +11,16 @@ import java.util.Scanner;
  */
 public class methods {
     public static void main(String[] args){
-       sum();
+       int x=100;
+        int y=200;
+       swap(x,y);
     }
-    static String sum(){
-        Scanner obj= new Scanner(System.in);
-        System.out.println("hii");
-        String h="hiii";
-        return h;
+    static void swap(int a,int b){
+        int temp =a;
+        a=b;
+        b=temp;
+        System.out.println(a+" "+b);
+       
     }
     
 }
