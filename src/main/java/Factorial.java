@@ -2,26 +2,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.practice;
 
 /**
  *
  * @author dharma
  */
-public class Chnagevalues {
+public class Factorial {
     public static void main(String[] args){
-        int a=10;
-        {
-            a=100;
-            int c=40;
-        }
-        System.out.println(a);
+        int num=5;
+        factorial(num);
+        
+    }
+    static void factorial(int num){
        
-    int arr[]={1,3,5,7,9};
-    changevalue(arr);
-    
-}
-    static void changevalue(int val[]){
-        val[0]=99;
+        int res=1;
+        for(int i=2;i<=num;i++){
+            
+            res*=i;
+            
+        }
+        System.out.println(res);
     }
 }
