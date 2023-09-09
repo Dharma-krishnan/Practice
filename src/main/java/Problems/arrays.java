@@ -15,14 +15,29 @@ public class arrays {
         int ros[];// declaration of array 
         ros= new int[5];//initialization
         System.out.println(ros.length);
-//        for(int i=0;i<5;i++){
-//            System.out.println("Enter element for "+i+":");
-//            ros[i]=obj.nextInt();
-//        }
+        for(int i=0;i<5;i++){
+            System.out.println("Enter element for "+i+":");
+            ros[i]=obj.nextInt();
+        }
+        // printing the array using for loop
 //        for(int i=0;i<5;i++){
 //            System.out.print(ros[i]);
 //        }
-        
+//  //using for each loop to print the array elements
+
+    for(int num :ros){
+        System.out.print(num+" ");
     }
+    System.out.println(" ");
+    change(ros);
+     for(int num :ros){
+        System.out.print(num+" ");
+    }
+  }
+     static void change(int[] sum){
+    sum[0]=121 ; 
+     }
+     
+  }
     
-}
+
