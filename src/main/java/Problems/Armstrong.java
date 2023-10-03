@@ -10,18 +10,26 @@ package Problems;
  */
 public class Armstrong {
     public static void main(String[] args){
-        int num=153;
-        int ans=0;
-        
-        while(num>0){
-           int rem = num % 10;
-           int cube=rem*rem*rem;
-           ans+=cube;
-           num=num/10;
-//           if(ans==num){
-//               System.out.println(num+" is an armstrong number ");
-           }
-        System.out.println(ans);
+//        int num=153;
+//        int ans=0;
+//        
+//        while(num>0){
+//           int rem = num % 10;
+//           int cube=rem*rem*rem;
+//           ans+=cube;
+//           num=num/10;
+////           if(ans==num){
+////               System.out.println(num+" is an armstrong number ");
+//           }
+//        System.out.println(ans);
+        int m=8;
+        for(int i=0;i<m;i++){
+            if(i%2==0){
+                System.out.println(i);
+            }
+        }
+
+
         }
         
     }

@@ -14,7 +14,9 @@ public class arrays {
         Scanner obj=new Scanner(System.in);
         int ros[];// declaration of array 
         ros= new int[5];//initialization
+       
         System.out.println(ros.length);
+       
         for(int i=0;i<5;i++){
             System.out.println("Enter element for "+i+":");
             ros[i]=obj.nextInt();
@@ -29,7 +31,7 @@ public class arrays {
         System.out.print(num+" ");
     }
     System.out.println(" ");
-    change(ros);
+    change(ros); // checking arrays are mutable by modifing an element at 0th index
      for(int num :ros){
         System.out.print(num+" ");
     }
