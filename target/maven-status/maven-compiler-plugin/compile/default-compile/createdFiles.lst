@@ -1,5 +1,6 @@
 com/mycompany/practice/varargs.class
 com/mycompany/practice/Inputs.class
+com/mycompany/practice/Ternay.class
 com/mycompany/practice/calci.class
 com/mycompany/practice/conditions.class
 com/mycompany/practice/TypeCasting.class
@@ -8,6 +9,7 @@ Problems/FIbo.class
 Problems/Armstrong.class
 Problems/arrays.class
 Problems/Largest.class
+com/mycompany/practice/ternary.class
 Problems/Countingoccurences.class
 com/mycompany/practice/CaseCheck.class
 com/mycompany/practice/methods.class
