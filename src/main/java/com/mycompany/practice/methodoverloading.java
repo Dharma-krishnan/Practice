@@ -8,20 +8,18 @@ package com.mycompany.practice;
  *
  * @author dharma
  */
- class ternary{
-    public int greater(int x,int y){
-        int res=(x>y)?x:y;
-        return res;
+class calculator{
+    public int sum( int n1,int n2,int n3){
+        return n1+n2+n3;
+    }
+    public int sum(int n1,int n2){
+        return n1+n2;
     }
 }
-public class Ternay {
+public class methodoverloading {
     public static void main(String[] args){
-        ternary obj =new ternary();
-       int a=10,b=20;
-      int res = obj.greater(a, b);
-       System.out.println("Maximum is "+res);
-       
-       
-    }
-    
+    calculator obj=new calculator();
+    int a=obj.sum(7,6);
+    System.out.println(a);
+}
 }

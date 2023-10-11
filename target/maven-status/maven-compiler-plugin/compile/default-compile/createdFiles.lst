@@ -1,11 +1,13 @@
 com/mycompany/practice/varargs.class
 com/mycompany/practice/Inputs.class
 com/mycompany/practice/Ternay.class
+com/mycompany/practice/methodoverloading.class
 com/mycompany/practice/calci.class
 com/mycompany/practice/conditions.class
 com/mycompany/practice/TypeCasting.class
 com/mycompany/practice/classandobjs.class
 Problems/FIbo.class
+com/mycompany/practice/calculator.class
 Problems/Armstrong.class
 Problems/arrays.class
 Problems/Largest.class
