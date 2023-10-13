@@ -16,7 +16,7 @@ class calculator{
         return n1+n2;
     }
 }
-public class methodoverloading {
+public class methodoverloading { // same method names but different parameters
     public static void main(String[] args){
     calculator obj=new calculator();
     int a=obj.sum(7,6);
