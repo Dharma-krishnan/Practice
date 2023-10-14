@@ -10,7 +10,7 @@ package Problems;
  */
 public class Palindrome {
     public static void main(String[] args){
-        int n=12341,sum=0,temp,r;
+        int n=121,sum=0,temp,r;
         temp=n;
         while(n>0){
           r=n%10;
