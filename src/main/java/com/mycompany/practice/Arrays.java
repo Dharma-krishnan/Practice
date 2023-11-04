@@ -11,12 +11,14 @@ package com.mycompany.practice;
 
 public class Arrays {
     public static void main(){
-        int[] arr={23,34,54,65};
-        
-        for(int el : arr){
-            System.out.println(el);
+        int[] arr = new int[5];
+        arr[0]=5;
+        arr[1]=10;
+         
+        for (int a : arr){
+            System.out.println(a);
         }
-       
+                
     }
     
 }
