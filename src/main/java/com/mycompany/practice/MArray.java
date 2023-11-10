@@ -8,17 +8,16 @@ package com.mycompany.practice;
  *
  * @author dharma
  */
-
-public class Arrays {
-    public static void main(){
-        int[] arr={23,34,54,65};
+public class MArray {
+    public static void main(String[] args){
+        int[][] marr=new int[2][3];
         
-        for(int el : arr){  // for each loop
-            System.out.println(el);
+        for(int i=0;i<2;i++){
+            for(int j=0;j<3;j++){
+                System.out.print(marr[i][j] +" ");
+            }
+       System.out.println();
         }
-       for(int i=0;i<arr.length;i++){  // normal for loop
-            System.out.println(i);
-       }
+        
     }
-    
 }
