@@ -26,7 +26,6 @@ public class jaggedarrays {
                 System.out.print(k+" ");
             }
             System.out.println();
-                
         }
         
         
